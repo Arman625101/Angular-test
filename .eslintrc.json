@@ -1,0 +1,14 @@
+{
+	"parser": "babel-eslint",
+	"extends": "airbnb-base",
+	"globals": {
+		"localStorage": true,
+		"document": true,
+		"window": true,
+		"fetch": false
+	},
+	"rules": {
+		"no-unused-vars": "warn",
+		"class-methods-use-this": "off"
+	}
+}
